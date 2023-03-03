@@ -1,0 +1,19 @@
+body {
+    background-color: cadetblue;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #000;
+    padding: 30px;
+}
+
+form input[type="text"] {
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 4px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
