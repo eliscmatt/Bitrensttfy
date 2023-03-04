@@ -1,4 +1,19 @@
+@import url(assets/style/login-cad.html);
+@import url(assets/style/header.css);
+@import url(assets/style/main.css);
+@import url(assets/style/gallery.css);
+@import url(assets/style/ped-form.css);
+@import url(assets/style/footer.css);
+
 @import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,300;0,400;1,200&family=Dancing+Script:wght@700&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    text-decoration: none;
+}
 
 /*
 H1
@@ -21,7 +36,7 @@ Light 300
  */
 
 /* DINAMIC CSS */
-:root{
+/* :root{
     --h1-font-title: 'Dancing Script', cursive;
     --h3-font-subtitle: 'Bitter', serif;
     --p--font-text: 'Bitter', serif;
@@ -152,7 +167,7 @@ p, .btn {
     color: var(--text-color);
     text-indent: 1.2rem;
     word-spacing: 0.2rem;
-}
+} */
 
 /* MOBILE FISRT: STORE HERE */
 .extra-photos {
