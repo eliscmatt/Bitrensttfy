@@ -3,7 +3,9 @@
     "sass": "^1.58.3"
   },
   "scripts": {
-    "sass": "sass input.scss output.css"
+    "sass": "sass global.scss global.css"
+  },
+  "devDependencies": {
+    "node-sass": "^8.0.0"
   }
-  
 }

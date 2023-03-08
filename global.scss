@@ -4,7 +4,9 @@
 @import url(assets/style/gallery.css);
 @import url(assets/style/ped-form.css);
 @import url(assets/style/footer.css);
-@import url("https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,300;0,400;1,200&family=Dancing+Script:wght@700&display=swap");
+
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,300;0,400;1,200&family=Dancing+Script:wght@700&display=swap');
+
 /*
 H1
 font-family: 'Dancing Script', cursive;
@@ -24,104 +26,119 @@ Extra text fine:
 Light 300
 }
  */
+
 /* DINAMIC CSS */
-:root {
-  --h1-font-title: "Dancing Script", cursive;
-  --h3-font-subtitle: "Bitter", serif;
-  --p--font-text: "Bitter", serif;
-  --h1-size: 15vw;
-  --h3-size: 3vw;
-  --p-size: 3.4vw;
-  --btn-see-font-size: 3vw;
-  --btn-buy-font-size: 4vw;
-  --h1-maxscreen-size: 5vw;
-  --h3-maxscreen-size: 1.2vw;
-  --p-maxscreen-size: 1.4vw;
-  --btn-see-maxscreen-font-size: 1.3vw;
-  --btn-buy--maxscreenfont-size: 2.3vw;
-  --bg-base: #ebebeb;
-  --bg-base-2: #F2CD88;
-  --button-text: #f2f2f2;
-  --text-color: #f2f2f2;
-  --button-color-r: #8C1B2F;
-  --button-color-r-hover: #027373;
-  --button-color-g: #A6BF49;
-  --button-color-g-hover: #557314;
-  --details-o: #F2B077;
-  --details-g: #2C4001;
+ :root{
+    --h1-font-title: 'Dancing Script', cursive;
+    --h3-font-subtitle: 'Bitter', serif;
+    --p--font-text: 'Bitter', serif;
+
+    --h1-size: 15vw;
+    --h3-size: 3vw;
+    --p-size: 3.4vw;
+    --btn-see-font-size: 3vw;
+    --btn-buy-font-size: 4vw; 
+
+    --h1-maxscreen-size: 5vw;
+    --h3-maxscreen-size: 1.2vw;
+    --p-maxscreen-size: 1.4vw;
+    --btn-see-maxscreen-font-size: 1.3vw;
+    --btn-buy--maxscreenfont-size: 2.3vw;
+
+    --bg-base: #ebebeb;
+    --bg-base-2: #F2CD88;
+
+    --button-text: #f2f2f2;
+
+    --text-color: #f2f2f2;
+
+    --button-color-r: #8C1B2F;
+    --button-color-r-hover: #027373;
+
+    --button-color-g: #A6BF49;
+    --button-color-g-hover: #557314;
+
+    --details-o: #F2B077;
+    --details-g: #2C4001;
 }
 
 /* GENERAL CONFIGS */
 * {
-  box-sizing: border-box;
-  padding: 0px;
-  margin: 0px;
-  list-style: none;
-  text-decoration: none;
-  font-family: sans-serif;
-  font-weight: normal;
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: normal;
 }
-
 img {
-  display: block;
-  max-width: 100%;
-  border-radius: 6px;
+    display: block;
+    max-width: 100%;
+    border-radius: 6px;
 }
-
 header, footer {
-  text-align: center;
+    text-align: center;
 }
-
 h1 {
-  font-family: var(--h1-font-title);
-  font-size: var(--h1-size);
-  margin: 1.2rem;
+    font-family: var(--h1-font-title);
+    font-size: var(--h1-size);
+    margin: 1.2rem;
 }
-
 h3 {
-  font-family: var(--h3-font-subtitle);
-  font-size: var(--h3-size);
-  font-weight: bold;
-  font-style: italic;
+    font-family: var(--h3-font-subtitle);
+    font-size: var(--h3-size);
+    font-weight: bold;
+    font-style: italic;
 }
-
 p {
-  font-size: var(--p-size);
+    font-size: var(--p-size);
 }
-
 p, .btn {
-  font-family: var(--p-font-text);
-  font-weight: 400;
+    font-family: var(--p-font-text);
+    font-weight: 400;
 }
-
 .btn {
-  padding: 10px;
-  font-size: 0.68rem;
-  cursor: pointer;
-  color: var(--button-text);
-  font-weight: 600;
-  border-radius: 6px;
-  cursor: pointer;
-  border: none;
-  display: inline-block;
+    padding: 10px;
+    font-size: 0.680rem;
+    cursor: pointer;
+    color: var(--button-text);
+    font-weight: 600;
+    border-radius: 6px;
+    cursor: pointer;
+    border: none;
+    display: inline-block;
+}
+.container {
+    display: block;
 }
 
-.container {
-  display: block;
+
+@media (max-width: 600px) {
+
 }
+
+
 
 /* MOBILE FIRST: ABOUT */
 /* header {
     padding: 10vw;
 } */
+
 /* MOBILE FISRT: STORE HERE */
+
+
 /* MOBILE FIRTS: FOOTER */
+
+
+
 /* @media (min-width: 250px) and (max-width: 960px) {
     .grid {
         display: flex;
         flex-direction: column;
     }
 } */
+
 /* @media (min-width: 960px) and (max-width: 1024px) {
     .photo-2 {
         height: 460px;
@@ -130,6 +147,7 @@ p, .btn {
         padding: 2vw 3vw;
     }
 } */
+
 /* @media (min-width: 1024px) and (max-width: 1800px) {
     .bg-2 {
         max-width: 95%;
@@ -191,5 +209,3 @@ p, .btn {
         font-size: var(--p-maxscreen-size);
     }
 } */
-
-/*# sourceMappingURL=global.css.map */
