@@ -1,0 +1,30 @@
+.info {
+    margin: 30px;
+}
+
+
+.btn-see {
+    place-self: flex-start end;
+    font-size: var(--btn-see-font-size);
+    background: var(--buttom-color-r);
+}
+.btn-see:hover {
+    background: var(--buttom-color-r-hover);
+    border: 1px solid var(--details-g);
+    box-shadow: 1px 3px 5px black;
+}
+.btn-see:focus {
+    background: var(--buttom-color-r-hover);
+}
+.btn-buy {
+    background: var(--buttom-color-g);
+    font-size: var(--btn-buy-font-size);
+}
+.btn-buy:hover {
+    background: var(--buttom-color-g-hover);
+    border: 1px solid var(--details-g);
+    box-shadow: 1px 3px 5px black;
+}
+.btn-buy:focus {
+    background: var(--buttom-color-g-hover);
+}

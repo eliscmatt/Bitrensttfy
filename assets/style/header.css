@@ -2,41 +2,42 @@ header h1, h3 {
     font-size: 3rem;
     color: #000;
 }
-
 header {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
+    margin: 2rem 0;
 }
 
-button, input {
-    border: none;
-    border-radius: 4px;
-    color: #000;
-}
-
-header ul li{
-    background-color: #d5d5d5;
+header ul li {
+    display: inline-block;
     text-transform: uppercase;
-    margin: 4px;
-    padding: 10px;
+    border-radius: 4px;
+    margin: 40px 0;
+    background-color: var(--button-color-r);
+    color: #fff;
+}
+li:hover {
+    background-color: var(--button-color-r-hover);
+    transition: .4s;
 }
 
 .buttons-log {
+    position: absolute;
+    top: 0px;
+    right: 0px;
     display: flex;
-    flex-direction: column;
+    justify-content: end;
+}
+.buttons-log button {
+    color: black;
+    padding: 20px;
     margin: 5px;
     padding: 10px;
-    background-color: #57f28b;
+    border-radius: 4px;
+    cursor: pointer;
 }
-
-main {
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto;
-    padding: 20px;
-    font-size: 18pt;
+.isBtnLog {
+    background-color: var(--button-color-g);
+}
+.isBtnLog:hover {
+    background-color: var(--button-color-g-hover);
+    transition: .6s;
 }
