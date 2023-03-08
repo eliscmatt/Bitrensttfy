@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "sass": "^1.58.3"
+  },
+  "scripts": {
+    "sass": "sass input.scss output.css"
+  }
+  
+}
