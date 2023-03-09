@@ -2,9 +2,12 @@
 header {
   margin: 2rem 0;
 }
-header h1, header h3 {
+header h1 {
   font-size: 3rem;
   color: #000;
+}
+header h3 {
+  font-size: 0.82rem;
 }
 header ul li {
   display: inline-block;
@@ -145,12 +148,16 @@ form input[type=text] {
   text-decoration: none;
   font-family: sans-serif;
   font-weight: normal;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
 }
 
 img {
   display: block;
   max-width: 100%;
   border-radius: 6px;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
 }
 
 header, footer {
@@ -158,24 +165,24 @@ header, footer {
 }
 
 h1 {
-  font-family: var("Dancing Script", cursive);
-  font-size: var(15vw);
+  font-family: "Dancing Script", cursive;
+  font-size: 3rem;
   margin: 1.2rem;
 }
 
 h3 {
-  font-family: var("Bitter", serif);
-  font-size: var(3vw);
+  font-family: "Bitter", serif;
+  font-size: 0.82rem;
   font-weight: bold;
   font-style: italic;
 }
 
 p {
-  font-size: var(3.4vw);
+  font-size: 0.87rem;
 }
 
 p, .btn {
-  font-family: var("Bitter", serif);
+  font-family: "Bitter", serif;
   font-weight: 400;
 }
 
@@ -183,7 +190,7 @@ p, .btn {
   padding: 10px;
   font-size: 0.68rem;
   cursor: pointer;
-  color: var(#f2f2f2);
+  color: #f2f2f2;
   font-weight: 600;
   border-radius: 6px;
   cursor: pointer;
@@ -219,10 +226,10 @@ p, .btn {
     .bg-2 {
         max-width: 95%;
         margin: 0 auto;
-        background-color: var($details-g);
+        background-color: $details-g;
     }
      .bg-1 {
-        background: var($bg-base);
+        background: $bg-base;
     }
     #header {
         display: flex;
@@ -232,22 +239,22 @@ p, .btn {
         padding: 2vw;
     }
     h1 {
-        font-size: var($h1-maxscreen-size);
+        font-size: $h1-maxscreen-size);
     }
     h3 {
-        font-size: var($h3-maxscreen-size);
+        font-size: $h3-maxscreen-size);
     }
     .text-description {
-        font-size: var($p-maxscreen-size);
+        font-size: $p-maxscreen-size);
         padding: 4vw 4vw;
     }
     .btn-see {
-        font-size: var($btn-see-maxscreen-font-size);
+        font-size: $btn-see-maxscreen-font-size);
         margin-right: 22vw;
     }
     .btn-buy {
         display: none;
-        font-size: var($btn-buy$maxscreenfont-size);
+        font-size: $btn-buy$maxscreenfont-size);
     }
     img.photo-2 {
         margin-top: 1vw;
@@ -273,7 +280,7 @@ p, .btn {
         padding: 10vw;
     }
     #footer p {
-        font-size: var($p-maxscreen-size);
+        font-size: $p-maxscreen-size);
     }
 } */
 

@@ -1,9 +1,12 @@
 header {
   margin: 2rem 0;
 }
-header h1, header h3 {
+header h1 {
   font-size: 3rem;
   color: #000;
+}
+header h3 {
+  font-size: 0.82rem;
 }
 header ul li {
   display: inline-block;

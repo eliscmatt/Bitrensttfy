@@ -1,9 +1,12 @@
 @import 'variables';
 
 header {
-  h1, h3 {
-    font-size: 3rem;
+  h1 {
+    font-size: $h1-size;
     color: $color-black;
+  }
+  h3 {
+    font-size: $h3-size;
   }
   margin: 2rem 0;
 

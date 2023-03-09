@@ -3,9 +3,7 @@
     "sass": "^1.58.3"
   },
   "scripts": {
-    "sass": "sass global.scss global.css",
-    "variables": "sass assets/src/style/_variables.scss:style/_variables.css",
-    "compilesass": "sass assets/src/style:style"
+    "sass": "sass --watch global.scss:global.css assets/src/style/_variables.scss:style/_variables.css assets/src/style:style"
   },
   "devDependencies": {
     "node-sass": "^8.0.0"
