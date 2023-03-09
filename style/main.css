@@ -1,18 +1,36 @@
-/* Error: This file is already being loaded.
- *   ,
- * 3 | @import 'assets/src/style/main';
- *   |         ^^^^^^^^^^^^^^^^^^^^^^^
- *   '
- *   global.scss 3:9                 @import
- *   assets\src\style\main.scss 1:9  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: This file is already being loaded.\a   \2577 \a 3 \2502  @import 'assets/src/style/main';\d\a   \2502          ^^^^^^^^^^^^^^^^^^^^^^^\a   \2575 \a   global.scss 3:9                 @import\a   assets\\src\\style\\main.scss 1:9  root stylesheet";
+.info {
+  margin: 30px;
 }
+
+.btn-see {
+  place-self: flex-start end;
+  font-size: 3vw;
+  background-color: #8C1B2F;
+}
+
+.btn-see:hover {
+  background-color: #027373;
+  border: 1px solid #2C4001;
+  box-shadow: 1px 3px 5px black;
+}
+
+.btn-see:focus {
+  background: #027373;
+}
+
+.btn-buy {
+  background: #A6BF49;
+  font-size: 4vw;
+}
+
+.btn-buy:hover {
+  background: #557314;
+  border: 1px solid #2C4001;
+  box-shadow: 1px 3px 5px black;
+}
+
+.btn-buy:focus {
+  background: #557314;
+}
+
+/*# sourceMappingURL=main.css.map */

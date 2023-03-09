@@ -1,5 +1,141 @@
 @import url("https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,300;0,400;1,200&family=Dancing+Script:wght@700&display=swap");
-/* DINAMIC CSS */
+header {
+  margin: 2rem 0;
+}
+header h1, header h3 {
+  font-size: 3rem;
+  color: #000;
+}
+header ul li {
+  display: inline-block;
+  text-transform: uppercase;
+  border-radius: 4px;
+  margin: 40px 0;
+  background-color: #8C1B2F;
+  color: #fff;
+}
+header ul li:hover {
+  background-color: #027373;
+  transition: 0.4s;
+}
+
+.buttons-log {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  display: flex;
+  justify-content: end;
+}
+.buttons-log button {
+  color: black;
+  padding: 20px;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.buttons-log button.isBtnLog {
+  background-color: #A6BF49;
+}
+.buttons-log button.isBtnLog:hover {
+  background-color: #557314;
+  transition: 0.6s;
+}
+
+/* header h1, h3 {
+    font-size: 3rem;
+    color: #000;
+}
+header {
+    margin: 2rem 0;
+}
+
+header ul li {
+    display: inline-block;
+    text-transform: uppercase;
+    border-radius: 4px;
+    margin: 40px 0;
+    background-color: var(--button-color-r);
+    color: #fff;
+}
+li:hover {
+    background-color: var(--button-color-r-hover);
+    transition: .4s;
+}
+
+.buttons-log {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    display: flex;
+    justify-content: end;
+}
+.buttons-log button {
+    color: black;
+    padding: 20px;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.isBtnLog {
+    background-color: var(--button-color-g);
+}
+.isBtnLog:hover {
+    background-color: var(--button-color-g-hover);
+    transition: .6s;
+} */
+.info {
+  margin: 30px;
+}
+
+.btn-see {
+  place-self: flex-start end;
+  font-size: 3vw;
+  background-color: #8C1B2F;
+}
+
+.btn-see:hover {
+  background-color: #027373;
+  border: 1px solid #2C4001;
+  box-shadow: 1px 3px 5px black;
+}
+
+.btn-see:focus {
+  background: #027373;
+}
+
+.btn-buy {
+  background: #A6BF49;
+  font-size: 4vw;
+}
+
+.btn-buy:hover {
+  background: #557314;
+  border: 1px solid #2C4001;
+  box-shadow: 1px 3px 5px black;
+}
+
+.btn-buy:focus {
+  background: #557314;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #000;
+  padding: 30px;
+}
+
+form input[type=text] {
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 4px;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
 /* GENERAL CONFIGS */
 * {
   box-sizing: border-box;
@@ -141,4 +277,4 @@ p, .btn {
     }
 } */
 
-/*# sourceMappingURL=_global.css.map */
+/*# sourceMappingURL=global.css.map */
