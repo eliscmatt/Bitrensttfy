@@ -1,56 +1,5 @@
-@import url(assets/style/login-cad.html);
-@import url(assets/style/header.css);
-@import url(assets/style/main.css);
-@import url(assets/style/gallery.css);
-@import url(assets/style/ped-form.css);
-@import url(assets/style/footer.css);
 @import url("https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,300;0,400;1,200&family=Dancing+Script:wght@700&display=swap");
-/*
-H1
-font-family: 'Dancing Script', cursive;
-{
-Bold 700
-}
-
-font-family: 'Bitter', serif; 
-{
-Subtitle:
-ExtraLight 200 Italic
-
-Text:
-Regular 400
-
-Extra text fine:
-Light 300
-}
- */
 /* DINAMIC CSS */
-:root {
-  --h1-font-title: "Dancing Script", cursive;
-  --h3-font-subtitle: "Bitter", serif;
-  --p--font-text: "Bitter", serif;
-  --h1-size: 15vw;
-  --h3-size: 3vw;
-  --p-size: 3.4vw;
-  --btn-see-font-size: 3vw;
-  --btn-buy-font-size: 4vw;
-  --h1-maxscreen-size: 5vw;
-  --h3-maxscreen-size: 1.2vw;
-  --p-maxscreen-size: 1.4vw;
-  --btn-see-maxscreen-font-size: 1.3vw;
-  --btn-buy--maxscreenfont-size: 2.3vw;
-  --bg-base: #ebebeb;
-  --bg-base-2: #F2CD88;
-  --button-text: #f2f2f2;
-  --text-color: #f2f2f2;
-  --button-color-r: #8C1B2F;
-  --button-color-r-hover: #027373;
-  --button-color-g: #A6BF49;
-  --button-color-g-hover: #557314;
-  --details-o: #F2B077;
-  --details-g: #2C4001;
-}
-
 /* GENERAL CONFIGS */
 * {
   box-sizing: border-box;
@@ -73,24 +22,24 @@ header, footer {
 }
 
 h1 {
-  font-family: var(--h1-font-title);
-  font-size: var(--h1-size);
+  font-family: var("Dancing Script", cursive);
+  font-size: var(15vw);
   margin: 1.2rem;
 }
 
 h3 {
-  font-family: var(--h3-font-subtitle);
-  font-size: var(--h3-size);
+  font-family: var("Bitter", serif);
+  font-size: var(3vw);
   font-weight: bold;
   font-style: italic;
 }
 
 p {
-  font-size: var(--p-size);
+  font-size: var(3.4vw);
 }
 
 p, .btn {
-  font-family: var(--p-font-text);
+  font-family: var("Bitter", serif);
   font-weight: 400;
 }
 
@@ -98,7 +47,7 @@ p, .btn {
   padding: 10px;
   font-size: 0.68rem;
   cursor: pointer;
-  color: var(--button-text);
+  color: var(#f2f2f2);
   font-weight: 600;
   border-radius: 6px;
   cursor: pointer;
@@ -134,10 +83,10 @@ p, .btn {
     .bg-2 {
         max-width: 95%;
         margin: 0 auto;
-        background-color: var(--details-g);
+        background-color: var($details-g);
     }
      .bg-1 {
-        background: var(--bg-base);
+        background: var($bg-base);
     }
     #header {
         display: flex;
@@ -147,22 +96,22 @@ p, .btn {
         padding: 2vw;
     }
     h1 {
-        font-size: var(--h1-maxscreen-size);
+        font-size: var($h1-maxscreen-size);
     }
     h3 {
-        font-size: var(--h3-maxscreen-size);
+        font-size: var($h3-maxscreen-size);
     }
     .text-description {
-        font-size: var(--p-maxscreen-size);
+        font-size: var($p-maxscreen-size);
         padding: 4vw 4vw;
     }
     .btn-see {
-        font-size: var(--btn-see-maxscreen-font-size);
+        font-size: var($btn-see-maxscreen-font-size);
         margin-right: 22vw;
     }
     .btn-buy {
         display: none;
-        font-size: var(--btn-buy--maxscreenfont-size);
+        font-size: var($btn-buy$maxscreenfont-size);
     }
     img.photo-2 {
         margin-top: 1vw;
@@ -188,8 +137,8 @@ p, .btn {
         padding: 10vw;
     }
     #footer p {
-        font-size: var(--p-maxscreen-size);
+        font-size: var($p-maxscreen-size);
     }
 } */
 
-/*# sourceMappingURL=global.css.map */
+/*# sourceMappingURL=_global.css.map */

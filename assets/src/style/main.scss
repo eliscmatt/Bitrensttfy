@@ -1,0 +1,31 @@
+@import '../../../global';
+
+.info {
+    margin: 30px;
+}
+
+.btn-see {
+    place-self: flex-start end;
+    font-size: $btn-see-font-size;
+    background-color: $button-color-r;
+}
+.btn-see:hover {
+    background-color: $button-color-r-hover;
+    border: 1px solid $details-g;
+    box-shadow: 1px 3px 5px black;
+}
+.btn-see:focus {
+    background: $button-color-r-hover;
+}
+.btn-buy {
+    background: $button-color-g;
+    font-size: $btn-buy-font-size;
+}
+.btn-buy:hover {
+    background: $button-color-g-hover;
+    border: 1px solid $details-g;
+    box-shadow: 1px 3px 5px black;
+}
+.btn-buy:focus {
+    background: $button-color-g-hover;
+}
