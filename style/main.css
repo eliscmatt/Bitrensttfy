@@ -1,26 +1,40 @@
+.container {
+  display: flex;
+  align-items: center;
+  padding: 40px 20px;
+  background-color: #F2CD88;
+}
+.container img {
+  width: 90%;
+  margin: 0 auto;
+}
+.container img:hover {
+  cursor: pointer;
+  opacity: 0.2;
+  transition: opacity 0.4s ease-in;
+}
+.container .btn-see:hover {
+  background-color: #027373;
+  border: 1px solid #2C4001;
+  box-shadow: 1px 3px 5px black;
+  transition: 0.4s;
+}
+.container .btn-see:focus {
+  background: #027373;
+}
+
 .info {
   margin: 30px;
 }
 
 .btn-see {
-  place-self: flex-start end;
-  font-size: 3vw;
+  font-size: 1.4rem;
   background-color: #8C1B2F;
-}
-
-.btn-see:hover {
-  background-color: #027373;
-  border: 1px solid #2C4001;
-  box-shadow: 1px 3px 5px black;
-}
-
-.btn-see:focus {
-  background: #027373;
 }
 
 .btn-buy {
   background: #A6BF49;
-  font-size: 4vw;
+  font-size: 1.4rem;
 }
 
 .btn-buy:hover {

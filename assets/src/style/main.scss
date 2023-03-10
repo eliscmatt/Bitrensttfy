@@ -1,22 +1,45 @@
 @import 'variables';
 
+.container {
+    display: flex;
+    align-items: center;
+    padding: 40px 20px;
+    background-color: $bg-base-2;
+    
+    img {
+        width: 90%;
+        margin: 0 auto;
+
+        &:hover {
+            cursor: pointer;
+            opacity: 0.2;
+            transition: opacity 0.4s ease-in;
+        }
+    }
+
+    .btn-see {
+        &:hover {
+            background-color: $button-color-r-hover;
+            border: 1px solid $details-g;
+            box-shadow: 1px 3px 5px black;
+            transition: .4s;
+        }
+        &:focus {
+            background: $button-color-r-hover;
+        }
+    }
+
+}
+
 .info {
     margin: 30px;
 }
 
 .btn-see {
-    place-self: flex-start end;
     font-size: $btn-see-font-size;
     background-color: $button-color-r;
 }
-.btn-see:hover {
-    background-color: $button-color-r-hover;
-    border: 1px solid $details-g;
-    box-shadow: 1px 3px 5px black;
-}
-.btn-see:focus {
-    background: $button-color-r-hover;
-}
+
 .btn-buy {
     background: $button-color-g;
     font-size: $btn-buy-font-size;

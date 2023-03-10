@@ -12,9 +12,10 @@ header {
 
   ul li {
     display: inline-block;
+    font-size: $btn-menu-font-size;
     text-transform: uppercase;
     border-radius: 4px;
-    margin: 40px 0;
+    margin: 40px 10px;
     background-color: $button-color-r;
     color: #fff;
     
@@ -23,29 +24,30 @@ header {
       transition: .4s;
     }
   }
-}
 
-.buttons-log {
-  position: absolute;
-  top: 0px;
-  right: 0px;
-  display: flex;
-  justify-content: end;
-
-  button {
-    color: black;
-    padding: 20px;
-    margin: 5px;
-    padding: 10px;
-    border-radius: 4px;
-    cursor: pointer;
-    
-    &.isBtnLog {
-      background-color: $button-color-g;
-
-      &:hover {
-        background-color: $button-color-g-hover;
-        transition: .6s;
+  .buttons-log {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    display: flex;
+    justify-content: end;
+  
+    button {
+      color: black;
+      padding: 20px;
+      margin: 5px;
+      padding: 10px;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: $btn-menu-font-size;
+      
+      &.isBtnLog {
+        background-color: $button-color-g;
+  
+        &:hover {
+          background-color: $button-color-g-hover;
+          transition: .6s;
+        }
       }
     }
   }

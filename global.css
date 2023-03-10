@@ -3,17 +3,18 @@ header {
   margin: 2rem 0;
 }
 header h1 {
-  font-size: 3rem;
+  font-size: 6rem;
   color: #000;
 }
 header h3 {
-  font-size: 0.82rem;
+  font-size: 1.2rem;
 }
 header ul li {
   display: inline-block;
+  font-size: 1rem;
   text-transform: uppercase;
   border-radius: 4px;
-  margin: 40px 0;
+  margin: 40px 10px;
   background-color: #8C1B2F;
   color: #fff;
 }
@@ -21,26 +22,26 @@ header ul li:hover {
   background-color: #027373;
   transition: 0.4s;
 }
-
-.buttons-log {
+header .buttons-log {
   position: absolute;
   top: 0px;
   right: 0px;
   display: flex;
   justify-content: end;
 }
-.buttons-log button {
+header .buttons-log button {
   color: black;
   padding: 20px;
   margin: 5px;
   padding: 10px;
   border-radius: 4px;
   cursor: pointer;
+  font-size: 1rem;
 }
-.buttons-log button.isBtnLog {
+header .buttons-log button.isBtnLog {
   background-color: #A6BF49;
 }
-.buttons-log button.isBtnLog:hover {
+header .buttons-log button.isBtnLog:hover {
   background-color: #557314;
   transition: 0.6s;
 }
@@ -88,29 +89,43 @@ li:hover {
     background-color: var(--button-color-g-hover);
     transition: .6s;
 } */
+.container {
+  display: flex;
+  align-items: center;
+  padding: 40px 20px;
+  background-color: #F2CD88;
+}
+.container img {
+  width: 90%;
+  margin: 0 auto;
+}
+.container img:hover {
+  cursor: pointer;
+  opacity: 0.2;
+  transition: opacity 0.4s ease-in;
+}
+.container .btn-see:hover {
+  background-color: #027373;
+  border: 1px solid #2C4001;
+  box-shadow: 1px 3px 5px black;
+  transition: 0.4s;
+}
+.container .btn-see:focus {
+  background: #027373;
+}
+
 .info {
   margin: 30px;
 }
 
 .btn-see {
-  place-self: flex-start end;
-  font-size: 3vw;
+  font-size: 1.4rem;
   background-color: #8C1B2F;
-}
-
-.btn-see:hover {
-  background-color: #027373;
-  border: 1px solid #2C4001;
-  box-shadow: 1px 3px 5px black;
-}
-
-.btn-see:focus {
-  background: #027373;
 }
 
 .btn-buy {
   background: #A6BF49;
-  font-size: 4vw;
+  font-size: 1.4rem;
 }
 
 .btn-buy:hover {
@@ -147,6 +162,7 @@ form input[type=text] {
   list-style: none;
   text-decoration: none;
   font-family: sans-serif;
+  font-size: 0.65rem;
   font-weight: normal;
   -webkit-user-drag: none;
   -webkit-user-select: none;
@@ -156,46 +172,40 @@ img {
   display: block;
   max-width: 100%;
   border-radius: 6px;
-  -webkit-user-drag: none;
-  -webkit-user-select: none;
+  margin: 3rem 0;
 }
 
 header, footer {
   text-align: center;
 }
-
-h1 {
+header h1, footer h1 {
   font-family: "Dancing Script", cursive;
-  font-size: 3rem;
-  margin: 1.2rem;
+  font-size: 6rem;
+  margin-top: 4rem;
 }
-
-h3 {
+header h3, footer h3 {
   font-family: "Bitter", serif;
-  font-size: 0.82rem;
+  font-size: 1.2rem;
   font-weight: bold;
   font-style: italic;
 }
 
-p {
-  font-size: 0.87rem;
+p, .btn {
+  font-family: sans-serif;
 }
 
-p, .btn {
-  font-family: "Bitter", serif;
-  font-weight: 400;
+p {
+  font-size: 1.4rem;
+  margin: 2rem;
 }
 
 .btn {
   padding: 10px;
-  font-size: 0.68rem;
   cursor: pointer;
   color: #f2f2f2;
-  font-weight: 600;
-  border-radius: 6px;
-  cursor: pointer;
+  font-weight: 400;
+  border-radius: 8px;
   border: none;
-  display: inline-block;
 }
 
 .container {
